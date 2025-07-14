@@ -1,0 +1,124 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "Howdy", "Hi there", "Hey there",
+        "Hello there", "Yo", "Hiya", "Greetings", "Hey, how are you?", "Hi, how’s it going?", "Hello, anyone there?", "Is anyone here?", "Good day", "Nice to see you", "How’s your day?"
+      ],
+      "responses": ["Hi there! Welcome to our cafeteria.", "Hello! How can I help you today?", "Good to see you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Catch you later", "Talk to you soon", "Farewell",
+        "I have to go", "Catch you next time", "See ya", "Later!", "Peace out", "See you", "See you again", "Good night", "Talk soon"
+      ],
+      "responses": ["Goodbye! Come back soon.", "See you next time!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Much appreciated", "Thanks a lot", "Cheers",
+        "Thank you very much", "Big thanks", "Thanks so much", "I appreciate it", "Appreciate your help"
+      ],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What's on the menu?", "Show me the menu", "What food do you have?", "Do you have drinks?", "What are you serving today?",
+        "Can I see today's menu?", "Any desserts available?", "Do you serve rice meals?", "Can I see your food list?", "Tell me your menu"
+      ],
+      "responses": ["We have burgers, sandwiches, pasta, and drinks. What would you like?", "Here's our menu: burgers, pasta, salad, coffee, and more!"]
+    },
+    {
+      "tag": "order_food",
+      "patterns": [
+        "I want a burger", "Give me a coffee", "Can I order pasta?", "I'd like a sandwich", "Can I get a salad?",
+        "Please get me fries", "Order a hotdog", "I want spaghetti", "I’ll take a rice meal", "Add a drink to my order"
+      ],
+      "responses": ["Sure! Your order has been placed.", "Got it. Your food will be ready shortly.", "Order received. Anything else?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Is my order ready?", "How long will it take?", "When will my food be ready?", "Is my burger done?",
+        "Can I get my food now?", "How much longer?", "Still waiting on my meal", "Is my coffee ready?", "Is the food done?", "Order ready?"
+      ],
+      "responses": ["Your order will be ready in 5-10 minutes.", "Almost done! Please wait a bit.", "It's being prepared right now."]
+    },
+    {
+      "tag": "open_hours",
+      "patterns": [
+        "What time do you open?", "Are you open now?", "What are your hours?", "Do you open on weekends?",
+        "Is the cafeteria open?", "What time do you close?", "Opening time?", "Closing time?", "Are you still serving?", "When do you start serving food?"
+      ],
+      "responses": ["We're open from 8 AM to 8 PM daily.", "Yes, we’re open 7 days a week from 8 AM to 8 PM."]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the cafeteria?", "How do I get there?", "What's your address?", "Where are you located?",
+        "How can I find the cafeteria?", "Is the cafeteria near the library?", "Cafeteria location?", "Where exactly are you?", "Is it on the ground floor?", "Are you near the main gate?"
+      ],
+      "responses": ["We’re located at the main building, ground floor.", "You can find us near the library, ground floor."]
+    },
+    {
+      "tag": "price_inquiry",
+      "patterns": [
+        "How much is a coffee?", "What’s the price of a burger?", "Is the salad expensive?", "Can you tell me the prices?",
+        "What’s the cheapest meal?", "Are drinks affordable?", "Do you have budget meals?", "What are the price ranges?", "How much is a rice bowl?", "How much is spaghetti?"
+      ],
+      "responses": ["Our coffee is $2. Burgers are $5. Check our full menu for more.", "Prices start at $2. Want me to send the menu?"]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "The food was great", "I didn’t like the service", "The burger was cold", "Amazing coffee!", "Service was slow",
+        "Food was tasty", "The fries were soggy", "I loved the pasta", "Good food!", "Your staff was kind"
+      ],
+      "responses": ["Thanks for your feedback!", "We’re sorry to hear that. We’ll work on it.", "Glad you liked it!"]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "What do you recommend?", "Any popular meals?", "What's your best seller?", "Can you recommend something?", "What's good today?",
+        "Best food here?", "What's the most ordered?", "Give me your suggestion", "What’s special today?", "What’s your favorite dish?"
+      ],
+      "responses": ["Try our bestseller: the Chicken Rice Bowl 🍗", "You can’t go wrong with the Spaghetti and Iced Tea combo!", "Most students love the Cheeseburger and Fries set!"]
+    },
+    {
+      "tag": "allergy_info",
+      "patterns": [
+        "Does this have peanuts?", "Is it dairy-free?", "Are there any allergens in this?", "Is this gluten-free?", "Can I eat this if I'm allergic to eggs?",
+        "Does the pasta have cheese?", "Is there soy in the burger?", "Does it contain nuts?", "I have allergies, help", "What allergens are present?"
+      ],
+      "responses": ["Please check with the staff on duty for allergy details.", "Let me pull up the allergen info for that dish.", "We take allergies seriously! Ask our counter for exact ingredients."]
+    },
+    {
+      "tag": "vegetarian_options",
+      "patterns": [
+        "Do you have vegetarian food?", "Any veggie meals?", "Can I get something without meat?", "I don’t eat meat, what can I order?", "Is there a vegetarian menu?",
+        "Any plant-based meals?", "Are there vegan options?", "I want a meat-free dish", "Is the salad vegan?", "Do you serve tofu?"
+      ],
+      "responses": ["Yes! We have veggie pasta, salads, and fruit bowls.", "You can try our grilled veggie sandwich or tofu rice bowl.", "Absolutely! Ask about our vegetarian specials today."]
+    },
+    {
+      "tag": "wait_time",
+      "patterns": [
+        "How long is the wait?", "When will my food be ready?", "Is the queue long?", "How fast is service now?", "Do I have to wait long?",
+        "What's the wait time?", "How busy is it?", "Is it crowded now?", "Will it take long?", "Are orders delayed?"
+      ],
+      "responses": ["The average wait time is 5–10 minutes.", "It’s a bit busy right now — around 10–15 minutes.", "No long wait right now! Food will be ready quickly."]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Can I pay with GCash?", "Do you accept cards?", "How do I pay?", "Cash only?", "What payment methods are accepted?",
+        "Do you accept e-wallets?", "Is GCash okay?", "Credit card accepted?", "How can I settle the bill?", "Do you do online payment?"
+      ],
+      "responses": ["We accept GCash, cash, and school meal cards 💳", "You can pay by cash or GCash — your choice!", "Card payments coming soon, for now GCash and cash are accepted."]
+    }
+  ]
+}
